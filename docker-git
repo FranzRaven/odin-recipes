@@ -1,0 +1,13 @@
+##  launch docker nginx img 
+docker run -it --rm  -p 8080:80 --name web -v ~/GITS/mindhub/CV:/usr/share/nginx/html nginx
+
+
+## GIT
+ git add .
+ git commit -m "bla"
+ git push origin master/main
+
+docker-git
+mindhub
+noise
+speculum
